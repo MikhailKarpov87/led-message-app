@@ -26,7 +26,7 @@ export function moveText() {
 }
 
 function generateDottedText(text) {
-  const specialChars = /[ !@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]/;
+  const specialChars = /[@#$%^&*()_+=[\]{};:"\\|,.<>/]/;
 
   //Dotted type doesn't have any numbers and special characters
   //Checking for this
