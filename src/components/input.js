@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
+
 import { updateText, updateOutputText, moveText, toggleMoveText } from "../actions";
 
 class Input extends Component {
@@ -19,12 +21,21 @@ class Input extends Component {
           value={text}
           onChange={event => updateText(event.target.value)}
         />
-        <button onClick={event => updateOutputText(text)}>UPDATE</button>
-        <button onClick={() => this.handleClick(isMoving)}>{isMoving ? "STOP" : "RUN"}</button>
+        <button onClick={() => updateOutputText(text)}>UPDATE</button>
+        <button onClick={() => this.handleClick(isMoving)}>{isMoving ? "STOP" : "START"}</button>
       </div>
     );
   }
 }
+
+Input.propTypes = {
+  updateText: PropTypes.func.isRequired,
+  updateOutputText: PropTypes.func.isRequired,
+  toggleMoveText: PropTypes.func.isRequired,
+  moveText: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired,
+  isMoving: PropTypes.oneOfType([PropTypes.bool, PropTypes.number])
+};
 
 const mapStateToProps = state => {
   return {
@@ -33,16 +44,7 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    updateText: text => dispatch(updateText(text)),
-    updateOutputText: text => dispatch(updateOutputText(text)),
-    toggleMoveText: status => dispatch(toggleMoveText(status)),
-    moveText: () => dispatch(moveText())
-  };
-};
-
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  { updateText, updateOutputText, toggleMoveText, moveText }
 )(Input);

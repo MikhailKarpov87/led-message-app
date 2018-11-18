@@ -1,3 +1,10 @@
+//Action names
+export const UPDATE_TEXT = "UPDATE_TEXT";
+export const UPDATE_OUTPUT_TEXT = "UPDATE_OUTPUT_TEXT";
+export const TOGGLE_MOVE_TEXT = "TOGGLE_MOVE_TEXT";
+export const MOVE_TEXT = "MOVE_TEXT";
+
+//Array of letters in two-dimensional 0|1 array format
 const lettersArray = {};
 
 lettersArray[" "] = [

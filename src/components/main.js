@@ -1,6 +1,7 @@
-/* eslint-disable */
 import React, { PureComponent } from "react";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
+
 import Row from "./row";
 
 class Main extends PureComponent {
@@ -14,6 +15,10 @@ class Main extends PureComponent {
     );
   }
 }
+
+Main.propTypes = {
+  outputText: PropTypes.array.isRequired
+};
 
 const mapStateToProps = state => {
   return {
