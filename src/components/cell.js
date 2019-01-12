@@ -1,10 +1,16 @@
-import React from "react";
+import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 
-const Cell = props => <div className={+props.status ? "cell_active" : "cell"} />;
+class Cell extends PureComponent {
+  render() {
+    const { status } = this.props;
+
+    return <div className={status ? "cell_active" : "cell"} />;
+  }
+}
 
 Cell.propTypes = {
-  status: PropTypes.string.isRequired
+  status: PropTypes.number.isRequired
 };
 
 export default Cell;

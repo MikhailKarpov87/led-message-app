@@ -4,7 +4,6 @@ export function generateDottedText(text) {
   const specialChars = new RegExp(/[^!,?\-. 'A-z]/g);
   let resultText = text;
   //    Dotted type doesn't have any numbers and special characters
-  console.log(specialChars.test(resultText) + "|" + resultText);
   if (specialChars.test(resultText)) resultText = "Sorry, no digits";
 
   //    Checking for max length
