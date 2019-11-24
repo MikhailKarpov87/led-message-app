@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/scrolling-message-app/precache-manifest.2bb8c3d2fc6fd8ae3484c39745d4c095.js"
+  "/scrolling-message-app/precache-manifest.582033c52eb9082277caba644fd16cca.js"
 );
 
 workbox.clientsClaim();
