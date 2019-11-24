@@ -1,13 +1,13 @@
 {
-  "main.css": "/scrolling-message-app/static/css/main.19b4b8fa.chunk.css",
-  "main.js": "/scrolling-message-app/static/js/main.8b306a70.chunk.js",
-  "main.js.map": "/scrolling-message-app/static/js/main.8b306a70.chunk.js.map",
+  "main.css": "/scrolling-message-app/static/css/main.c1ae9de9.chunk.css",
+  "main.js": "/scrolling-message-app/static/js/main.eb91666d.chunk.js",
+  "main.js.map": "/scrolling-message-app/static/js/main.eb91666d.chunk.js.map",
   "static/js/1.26a8c34e.chunk.js": "/scrolling-message-app/static/js/1.26a8c34e.chunk.js",
   "static/js/1.26a8c34e.chunk.js.map": "/scrolling-message-app/static/js/1.26a8c34e.chunk.js.map",
   "runtime~main.js": "/scrolling-message-app/static/js/runtime~main.0c937de9.js",
   "runtime~main.js.map": "/scrolling-message-app/static/js/runtime~main.0c937de9.js.map",
-  "static/css/main.19b4b8fa.chunk.css.map": "/scrolling-message-app/static/css/main.19b4b8fa.chunk.css.map",
+  "static/css/main.c1ae9de9.chunk.css.map": "/scrolling-message-app/static/css/main.c1ae9de9.chunk.css.map",
   "index.html": "/scrolling-message-app/index.html",
-  "precache-manifest.caf0b97127325921749035304e792008.js": "/scrolling-message-app/precache-manifest.caf0b97127325921749035304e792008.js",
+  "precache-manifest.d2df1159b837e408e3367987872ea2bd.js": "/scrolling-message-app/precache-manifest.d2df1159b837e408e3367987872ea2bd.js",
   "service-worker.js": "/scrolling-message-app/service-worker.js"
 }
