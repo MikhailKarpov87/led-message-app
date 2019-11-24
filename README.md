@@ -4,7 +4,7 @@
 
 React/Redux web app built for learning purposes. App takes given input text and creates scrolling LED message generated with bitmap font. CSS Grid table and React/Redux are used to display and handle bitmap scrolling text.
 
-[Demo](https://ledmessage.space)
+[Demo](https://mikhailkarpov87.github.io/scrolling-message-app/)
 
 ### Installation
 

@@ -1,9 +1,9 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 28px;
   border-radius: 5px;
   letter-spacing: 0.04em;
@@ -46,7 +46,7 @@ button:hover {
 .table-container {
   animation-duration: 1.5s;
   animation-name: fadein;
-  background-image: url(/led.jpg);
+  background-image: url(/scrolling-message-app/static/images/led.jpg);
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
