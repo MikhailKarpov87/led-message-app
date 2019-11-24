@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/scrolling-message-app/static/css/main.19b4b8fa.chunk.css"
   },
   {
-    "revision": "715562900d3b5469be77358315749a28",
+    "revision": "129bb95d913c3e1553eb4c0341d3fccb",
     "url": "/scrolling-message-app/index.html"
   }
 ];
